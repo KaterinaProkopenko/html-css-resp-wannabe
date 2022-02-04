@@ -1,9 +1,3 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 .row {
   width: 992px;
   margin-left: auto;
@@ -81,13 +75,15 @@ img {
 /* Smartphone */
 
 @media screen and (max-width: 420px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
   .row {
     width: 100%;
     margin-top: 0;
-  }
-
-  h3 {
-    margin: 0;
   }
 
   #lezioni .row,
